@@ -52,12 +52,17 @@ cd Restaurant-website
 ctrl+shift+`
 ```
 
-- run the following command in the terminal.
+- run the following command in the terminal:
 ```
 npm install
 ```
 
-- go to any browser and type the following in the search bar
+- run the following command in the terminal to start up the server:
+```
+node index.js
+```
+
+- go to any browser and type the following in the search bar:
 ```
 localhost:3000
 ```
