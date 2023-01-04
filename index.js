@@ -1,5 +1,5 @@
 const express =  require("express");
-const mongoose = require("mongoose");
+//const mongoose = require("mongoose");
 const path = require("path");
 const app = express();
 
@@ -12,19 +12,19 @@ app.use(express.static(__dirname + "/public"));
 
 
 
-mongoose.connect("mongodb://localhost:27017/restaurant",{
-    useNewUrlParser:true, useUnifiedTopology: true
-}).then(()=>console.log("successfull"))
-.catch((err)=>console.log(err));
+//mongoose.connect("mongodb://localhost:27017/restaurant",{
+//    useNewUrlParser:true, useUnifiedTopology: true
+//}).then(()=>console.log("successfull"))
+//.catch((err)=>console.log(err));
 
-const visitorSchema= new mongoose.Schema({
-    name:String,
-    NoofPeople:Number,
-    date:Date,
-    message:String
-});
+//const visitorSchema= new mongoose.Schema({
+//    name:String,
+//    NoofPeople:Number,
+//    date:Date,
+//    message:String
+//});
 
-const visitorModel = new mongoose.model("visitor",visitorSchema);
+//const visitorModel = new mongoose.model("visitor",visitorSchema);
 
 //let visitor1 = new visitorModel(
     //{
