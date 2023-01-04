@@ -26,8 +26,8 @@ const visitorSchema= new mongoose.Schema({
 
 const visitorModel = new mongoose.model("visitor",visitorSchema);
 
-// let visitor1 = new visitorModel(
-    {
+//let visitor1 = new visitorModel(
+    //{
        // name:"jugesh",
         //NoofPeople:6,
         //date:12-03-2020,
